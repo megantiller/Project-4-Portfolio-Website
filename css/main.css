@@ -10,6 +10,18 @@ body {
   background-color: #7dbdc4;
 }
 
+h1 {
+  text-align: center;
+}
+
+img {
+  max-width: 25%;
+}
+
+.polygonmenu {
+  text-align: center;
+}
+
 .logo {
   font-family: 'HelloFont ID ChunZhenTi';
 }
