@@ -1,4 +1,4 @@
-*, *:after, *:before {
+* {
   box-sizing: border-box;
 }
 
@@ -14,7 +14,36 @@ h1 {
   text-align: center;
 }
 
+map {
+  display: inline;
+}
 
+/*.column {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+}
+
+.row::after {
+  content:"";
+  clear: both;
+  display: table;
+}*/
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 20%;
+  padding: 40px;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
 
 #about {
   display: grid;
