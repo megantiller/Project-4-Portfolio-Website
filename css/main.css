@@ -17,7 +17,7 @@ body {
 
 .animations {
   text-align: left;
-  margin-left: auto;
+  text-indent: 25px;
 }
 
 h1 {
@@ -94,7 +94,7 @@ img {
 
 nav {
   margin: 0;
-  overflow: hidden;
+  overflow: visible;
 }
 nav ul {
   margin: 0;
