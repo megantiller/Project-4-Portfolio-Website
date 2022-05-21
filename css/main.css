@@ -69,19 +69,23 @@ h1 {
   width: 100%;
 }
 
-#contact {
+#contact img {
+  width: 100%;
+}
+
+/*#contact {
   display: grid;
   grid-template-columns: [apple] 47.5% [banana] 47.5% [strawberry];
   column-gap: 5%;
   row-gap: 40px;
   /*background: #196438;
-  padding: 30px;*/
+  padding: 30px;
   position: relative;
-  /*color: white;*/
+  /*color: white;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-}
+}*/
 
 img {
   max-width: 100%;
